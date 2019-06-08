@@ -1,0 +1,27 @@
+spring.application.name: stream-join-sample
+spring.cloud.stream.bindings.person:
+  destination: person
+  contentType: application/json
+  consumer:
+    useNativeDecoding: false
+spring.cloud.stream.kafka.streams.bindings.person:
+  consumer:
+    keySerde: kafka.streams.serde.PersonKeySerde
+    valueSerde: kafka.streams.serde.PersonSerde
+
+spring.cloud.stream.bindings.school:
+  destination: school
+  contentType: application/json
+  consumer:
+    useNativeDecoding: false
+spring.cloud.stream.kafka.streams.bindings.school:
+  consumer:
+    keySerde: kafka.streams.serde.SchoolKeySerde
+    valueSerde: kafka.streams.serde.SchoolSerde
+
+spring.cloud.stream.kafka.streams.binder:
+  brokers: localhost #192.168.99.100
+  configuration:
+    default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+    default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+    commit.interval.ms: 100

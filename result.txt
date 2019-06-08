@@ -1,0 +1,49 @@
+Personkey1= UniqueIdKey{id=1}, PersonValue1= Person{age=34.0}
+Personkey2= 1, PersonValue2= Person{age=34.0}
+Personkey3= UniqueIdKey{id=1}, PersonValue3= Person{age=34.0}
+SchoolKey1= UniqueIdKey{id=1}, SchoolValue1= School{address='Sector F/8'}
+Schoolkey2= 1, SchoolValue2= School{address='Sector F/8'}
+SchoolKey3= UniqueIdKey{id=1}, SchoolValue3= School{address='Sector F/8'}
+Personkey1= UniqueIdKey{id=2}, PersonValue1= Person{age=42.0}
+Personkey2= 2, PersonValue2= Person{age=42.0}
+Personkey3= UniqueIdKey{id=2}, PersonValue3= Person{age=42.0}
+SchoolKey1= UniqueIdKey{id=2}, SchoolValue1= School{address='Sector G/8'}
+Schoolkey2= 2, SchoolValue2= School{address='Sector G/8'}
+SchoolKey3= UniqueIdKey{id=2}, SchoolValue3= School{address='Sector G/8'}
+Personkey1= UniqueIdKey{id=3}, PersonValue1= Person{age=23.0}
+Personkey2= 3, PersonValue2= Person{age=23.0}
+Personkey3= UniqueIdKey{id=3}, PersonValue3= Person{age=23.0}
+SchoolKey1= UniqueIdKey{id=3}, SchoolValue1= School{address='Sector H/8'}
+Schoolkey2= 3, SchoolValue2= School{address='Sector H/8'}
+SchoolKey3= UniqueIdKey{id=3}, SchoolValue3= School{address='Sector H/8'}
+Personkey1= UniqueIdKey{id=4}, PersonValue1= Person{age=53.0}
+Personkey2= 4, PersonValue2= Person{age=53.0}
+Personkey3= UniqueIdKey{id=4}, PersonValue3= Person{age=53.0}
+SchoolKey1= UniqueIdKey{id=4}, SchoolValue1= School{address='Sector J/8'}
+Schoolkey2= 4, SchoolValue2= School{address='Sector J/8'}
+SchoolKey3= UniqueIdKey{id=4}, SchoolValue3= School{address='Sector J/8'}
+Personkey1= UniqueIdKey{id=5}, PersonValue1= Person{age=53.0}
+Personkey2= 5, PersonValue2= Person{age=53.0}
+Personkey3= UniqueIdKey{id=5}, PersonValue3= Person{age=53.0}
+SchoolKey1= UniqueIdKey{id=5}, SchoolValue1= School{address='Sector C/8'}
+Schoolkey2= 5, SchoolValue2= School{address='Sector C/8'}
+SchoolKey3= UniqueIdKey{id=5}, SchoolValue3= School{address='Sector C/8'}
+Personkey1= UniqueIdKey{id=6}, PersonValue1= Person{age=13.0}
+Personkey2= 6, PersonValue2= Person{age=13.0}
+Personkey3= UniqueIdKey{id=6}, PersonValue3= Person{age=13.0}
+SchoolKey1= UniqueIdKey{id=6}, SchoolValue1= School{address='Sector Z/8'}
+Schoolkey2= 6, SchoolValue2= School{address='Sector Z/8'}
+SchoolKey3= UniqueIdKey{id=6}, SchoolValue3= School{address='Sector Z/8'}
+Personkey1= UniqueIdKey{id=7}, PersonValue1= Person{age=64.0}
+Personkey2= 7, PersonValue2= Person{age=64.0}
+Personkey3= UniqueIdKey{id=7}, PersonValue3= Person{age=64.0}
+SchoolKey1= UniqueIdKey{id=7}, SchoolValue1= School{address='Sector S/8'}
+Schoolkey2= 7, SchoolValue2= School{address='Sector S/8'}
+SchoolKey3= UniqueIdKey{id=7}, SchoolValue3= School{address='Sector S/8'}
+person2= Person{age=34.0}, school2= School{address='Sector F/8'}
+person2= Person{age=42.0}, school2= School{address='Sector G/8'}
+person2= Person{age=23.0}, school2= School{address='Sector H/8'}
+person2= Person{age=53.0}, school2= School{address='Sector J/8'}
+person2= Person{age=53.0}, school2= School{address='Sector C/8'}
+person2= Person{age=13.0}, school2= School{address='Sector Z/8'}
+person2= Person{age=64.0}, school2= School{address='Sector S/8'}
